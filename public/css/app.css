@@ -1,0 +1,76 @@
+@font-face {
+    font-family: "Avenir";
+    src: url('../fonts/AvenirLTStd-Roman.otf') format("truetype");
+}
+
+body {
+	font-family: Avenir, verdana;
+	color: black;
+	background: rgb(255, 211, 223);
+}
+/*rgb(193, 255, 198)*/
+.navbar {
+	background: rgb(130, 163, 255);
+	font-size: 0.9em;
+}
+
+.navbar-brand {
+	font-size: 1.3em;
+}
+
+.navbar a {
+	color: white;
+	background: none;
+}
+
+.navbar a:link, .navbar a:visited, .navbar a:active {
+	background: transparent!important;
+	color: white;
+}
+
+.navbar a:hover {
+	background: rgb(172, 207, 51)!important;
+}
+
+.dropdown > .dropdown-menu {
+	background: rgb(250, 164, 25);
+}
+
+footer {
+	background: #383838;
+	color: #ababab;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+footer strong{
+	color: white;
+}
+
+.loading {
+	background: none;
+	position: fixed;
+	border-radius: 4px;
+	left: 50%;
+	top: 50%;
+	margin: -40px 0 0 -50px;
+	z-index: 2000;
+	display: none;
+}
+
+.carousel-item.active {
+	display: block;
+}
+
+.carouselText {
+	position: relative;
+	margin-top: -40%;
+	margin-bottom: 40%;
+}
+
+.carouselText h1 {
+	font-size: 4vw;
+	font-weight: bold;
+	color: white;
+	text-shadow: 0px 0px 20px #000;
+}
