@@ -15,7 +15,7 @@
 
 		<title>@yield('title'){{ config('app.name', 'Laravel') }}</title>
 
-		<link rel="shortcut icon" href="{{ asset('images/logo.jpg') }}">
+		<link rel="shortcut icon" href="{{ asset('images/Logo - no bg.png') }}">
 
 		<!-- Styles -->
 		<link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
